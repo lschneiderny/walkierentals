@@ -1,9 +1,10 @@
 import Link from "next/link";
 import CategoryNav from "@/components/CategoryNav";
 import ProductCard from "@/components/ProductCard";
-import { products } from "@/lib/data";
+import { getProducts } from "@/lib/data";
 
-export default function Home() {
+export default async function Home() {
+  const products = await getProducts();
   return (
     <div className="space-y-8">
       <section className="rounded-xl bg-gradient-to-br from-blue-600 to-blue-500 text-white p-8 shadow-sm">

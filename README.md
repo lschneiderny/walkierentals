@@ -1,24 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Walkie Rentals
+
+A modern walkie-talkie rental platform built with Next.js, featuring a LensRentals.com-inspired UI/UX design.
+
+## Features
+
+- **Product Catalog**: Browse walkie-talkies, kits, and accessories
+- **Shopping Cart**: Add items with rental date selection
+- **Responsive Design**: Mobile-first approach with Tailwind CSS
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js 18+ and npm installed
+- Git
+
+### Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <repository-url>
+cd walkierentals
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open [http://localhost:3000](http://localhost:3000) to view the application.
+
+## Project Structure
+
+- `src/app/` - Next.js app router pages
+- `src/components/` - Reusable UI components
+- `src/lib/` - Utility functions and contexts
+- `src/data/` - JSON data storage
 
 ## Learn More
 
